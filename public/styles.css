@@ -1,0 +1,43 @@
+/* App.css */
+body{
+    background-color: rgb(43, 43, 43);
+}
+.ima {
+    width: 250px;
+    height: 120px;
+    border-radius: 20px;
+  }
+  
+  h1 {
+    color: rgb(188, 188, 188);
+  }
+  
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    border-radius: 20px;
+    border-color: white;
+    border-style:none;
+}
+header h1{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.row {
+    margin-top: 50px;
+    display: flex; /* Use flexbox to create a row layout */
+    justify-content: space-around; /* Align items with space between */
+  }
+
+
+.divclass{
+    margin-top: 100px;
+}  
+/* index.css */
+a {
+    text-decoration: none; /* Remove underline */
+  }
+  
+  
