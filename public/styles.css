@@ -20,11 +20,25 @@ header {
     border-radius: 20px;
     border-color: white;
     border-style:none;
+    align-content: center;
+    text-align: center;
 }
 header h1{
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 150px;
+    text-align: center;
 }
+
+
+footer p{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #666666; /* Grey color */
+    text-align: center;
+    padding: 3px 0; /* Add padding for spacing */
+  }
+  
 .row {
     margin-top: 50px;
     display: flex; /* Use flexbox to create a row layout */
