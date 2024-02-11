@@ -20,5 +20,16 @@ function Header(){
       
     );
   }
+function Footer() {
+    const currentYear = new Date().getFullYear();
+    return (
+      <footer>
+        <p>&copy; {currentYear} React_Learn</p>
+      </footer>
+    );
+  }
+export {Sayhi,Header,Footer};
+
+
   
-export {Sayhi,Header};
+
